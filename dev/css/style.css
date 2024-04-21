@@ -50,17 +50,15 @@ body {
 }
 
 .navbar-nav {
-    margin-left: 30px;
+    margin-left: 0.5rem;
     position: relative;
 }
 
 .nav-item {
-    margin-left: 20px;
-    font-size: 18px;
+    margin: 0.2rem 0.5rem;
+    font-size: 1.2rem;
     align-items: center;
-    font-weight: 600;
-
-
+    font-weight: 500;
 }
 
 .nav-item .nav-link {
@@ -82,8 +80,7 @@ body {
 }
 
 #Buscar {
-    margin-left: 50px;
-
+    margin-left: 0.5rem;
 }
 
 #boton-buscar {
@@ -106,13 +103,11 @@ body {
 
 #input {
     border-radius: 10px;
-    width: 500px;
-
+    width: 11rem;
 }
 
 .Login {
     margin-right: 50px;
-    ;
 }
 
 .boton-entrar {
@@ -347,4 +342,11 @@ footer li a{
 footer i{
     font-size: 1.2rem;
     color: #7BC9FF;
+}
+
+#boton_suscribir{
+    background-color: #7BC9FF;
+    color: #FEFBF6;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
